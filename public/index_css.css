@@ -1,0 +1,46 @@
+#page{
+	text-align:center;
+	margin:auto;
+	width:800px;
+	background-color:rgb(255, 251, 163);
+	height:720px;
+}
+h1{
+	padding:20px;
+}
+#First_Div{
+	width:94%;
+	text-align:left;
+	/*border:1px solid;*/
+	height:400px;
+	margin:15px;
+	padding:8px;
+}
+a:hover{
+	background-color:white;
+	color:white;
+	
+}
+#Custom_Button{
+	background-color:white;
+	border:1px solid;
+	border-color:black;
+	float:right;
+	width:120px;
+	height:35px;
+	margin:40px;
+	padding:20px;
+	font-size:30px;
+	color:black;
+	transition-duration: 0.5s;
+}
+#Custom_Button:hover{
+		background-color: darkcyan;
+		border-color: darkcyan;
+		color:white;
+}
+.Submitted_to{
+	display:inline;
+	margin:0px 5px;
+	float:left;
+}

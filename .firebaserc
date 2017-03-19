@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "pcb-round-robin",
+    "HRRN": "pcb-hrrn",
+    "PCB": "pcb-os-assignment",
+    "pcb": "pcb-os-assignment-6ddc1"
+  }
+}

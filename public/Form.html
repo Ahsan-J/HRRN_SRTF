@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>PCB | Edit Value</title>
+	<link href="main_CSS.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body id="Form">
+	
+		<form action="main.php" method="post" name="Edit">
+			<table cellpadding="4px">
+			<thead><h2>Edit the Values</h2></thead>
+			<tr>
+				<td><label for="Q_no">Quantum : </label></td>
+				<td><input type="number" name ="Quantum" id="Q_no" required /></td>
+			</tr>
+			<tr>
+				<td><label for="P_no">Number of Process : </label></td>
+				<td><input type="number" name ="Process" id="P_no"/required ></td>
+			</tr>
+			<tr>
+				<td><label for="I_no">Number of Instructions : </label></td>
+				<td><input type="number" name ="Instruction" id="I_no" required /></td>
+			</tr>
+			<tr>
+				<td><label for ="int">Interrupted process</label></td>
+				<td><input type="number" name= "Interrupt" id="int" required /></td>
+			</tr>
+			<tr>
+				<td><label for ="int_p">at process</label></td>
+				<td><input type="number" name= "Interrupt_Instruction" id="int_p" required /></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" name= "Edit" value="Change" class="button2"/></td>
+			</tr>
+			
+			</table>
+		</form>
+		
+		
+	</body>
+</html>
